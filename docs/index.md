@@ -1,4 +1,4 @@
-# HTML-Boilerplate
+# Advanced-Boilerplate
 An easy and simple HTML Skeleton
 
 ### Features
