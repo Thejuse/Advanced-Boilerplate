@@ -1,6 +1,3 @@
-# Advanced-Boilerplate
-An easy and simple HTML Skeleton
-
 ### Features
 * Less Structure
 * Modular Structure
@@ -14,3 +11,13 @@ An easy and simple HTML Skeleton
 * Hamburger CSS
 * MagnificPopup
 * Sweetalert
+* Fontawesome
+* Google Material Icons
+
+### Dependencys
+1. Less Compiler
+
+### Roadmap
+* New Sweetalert
+* Standard Styling
+* Docs
