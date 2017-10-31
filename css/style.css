@@ -4,7 +4,7 @@
  *	PROJEKT_NAME - Copyright 2017
  *	LESS -> CSS Please use Compiler
  *  
- *  Advanced-Boilerplate - v.1.1.0
+ *  Advanced-Boilerplate - v.1.4.0
  *  https://github.com/Thejuse/Advanced-Boilerplate
  *
  */
@@ -23,6 +23,7 @@
 @import "external/hamburger/hamburger.css";
 @import "external/magnificPopup/magnific-popup.css";
 @import "external/sweetalert/sweetalert.css";
+@import "external/mmenu/jquery.mmenu.all.css";
 .sc.sc-amazon {
   color: #ff9900;
 }
@@ -2920,6 +2921,8 @@ body p {
   left: 0;
   top: 0;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .slick-track:before,
 .slick-track:after {
@@ -2968,14 +2971,6 @@ body p {
 .slick-loading .slick-list {
   background: #fff url('ajax-loader.gif') center center no-repeat;
 }
-/* Icons */
-@font-face {
-  font-family: 'slick';
-  font-weight: normal;
-  font-style: normal;
-  src: url('fonts/slick.eot');
-  src: url('fonts/slick.eot?#iefix') format('embedded-opentype'), url('fonts/slick.woff') format('woff'), url('fonts/slick.ttf') format('truetype'), url('fonts/slick.svg#slick') format('svg');
-}
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -3023,31 +3018,39 @@ body p {
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Icons */
+}
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/slick.eot');
+  src: url('fonts/slick.eot?#iefix') format('embedded-opentype'), url('fonts/slick.woff') format('woff'), url('fonts/slick.ttf') format('truetype'), url('fonts/slick.svg#slick') format('svg');
 }
 .slick-prev {
   left: -25px;
 }
-.slick-prev[dir="rtl"] {
+[dir="rtl"] .slick-prev {
   left: auto;
   right: -25px;
 }
 .slick-prev:before {
   content: "←";
 }
-.slick-prev:before[dir="rtl"] {
+[dir="rtl"] .slick-prev:before {
   content: "→";
 }
 .slick-next {
   right: -25px;
 }
-.slick-next[dir="rtl"] {
+[dir="rtl"] .slick-next {
   left: -25px;
   right: auto;
 }
 .slick-next:before {
   content: "→";
 }
-.slick-next:before[dir="rtl"] {
+[dir="rtl"] .slick-next:before {
   content: "←";
 }
 /* Dots */

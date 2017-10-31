@@ -14,5 +14,9 @@ An easy and simple HTML Skeleton
 * Hamburger CSS
 * MagnificPopup
 * Sweetalert
-
-### Roadmap
+* FontAwesome
+* Google Material Icons
+* HoverCSS
+* socialColors
+* MMenu
+* clipboardJS

@@ -35,4 +35,5 @@ $(document).ready(function() {
 	// Slick - slide anything! - a life saver when it comes to all sorts of sliders!
 	slickSlider();
 	magnificPopup();
+	// alert();
 });
