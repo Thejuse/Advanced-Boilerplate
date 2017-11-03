@@ -27,13 +27,54 @@ function magnificPopup(){
 	});
 }
 
+function mmenu(){
+		$("#menu").mmenu();
+}
+
+function isotopes(){
+	$('.grid').isotope({
+		// options
+		itemSelector: '.grid-item',
+		layoutMode: 'fitRows'
+	});
+}
+
+function clipboardJS(){
+		new Clipboard('.btn');
+}
+
 function alert(){
 	swal("Good job!", "You clicked the button!", "success");
 }
 
+function cookieConsent(){
+	window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+		  "palette": {
+			"popup": {
+			  "background": "#212121",
+			  "text": "#ffffff"
+			},
+			"button": {
+			  "background": "#606060",
+			  "text": "#ffffff"
+			}
+		  },
+		  "showLink": false,
+		  "theme": "edgeless",
+		  "content": {
+			"message": "Diese Webseite verwendet Cookies, um die Bedienfreundlichkeit zu erhöhen.",
+			"dismiss": "OK"
+		  }
+	})});
+}
+
 $(document).ready(function() {
-	// Slick - slide anything! - a life saver when it comes to all sorts of sliders!
 	slickSlider();
 	magnificPopup();
+	cookieConsent();
+	// mmenu();
+	// isotopes();
 	// alert();
+	// clipboardJS();
 });

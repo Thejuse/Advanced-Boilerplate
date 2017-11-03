@@ -4,7 +4,7 @@
  *	PROJEKT_NAME - Copyright 2017
  *	LESS -> CSS Please use Compiler
  *  
- *  Advanced-Boilerplate - v.1.4.0
+ *  Advanced-Boilerplate - v.1.5.0
  *  https://github.com/Thejuse/Advanced-Boilerplate
  *
  */
@@ -24,6 +24,7 @@
 @import "external/magnificPopup/magnific-popup.css";
 @import "external/sweetalert/sweetalert.css";
 @import "external/mmenu/jquery.mmenu.all.css";
+@import "external/cookieconsent/cookieconsent.css";
 .sc.sc-amazon {
   color: #ff9900;
 }
@@ -442,7 +443,7 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialicons/v30/2fcrYFNaTjcS6g4U3t-Y5StnKWgpfO2iSkLzTz-AABg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/materialicons/v31/2fcrYFNaTjcS6g4U3t-Y5StnKWgpfO2iSkLzTz-AABg.ttf) format('truetype');
 }
 .material-icons {
   font-family: 'Material Icons';
