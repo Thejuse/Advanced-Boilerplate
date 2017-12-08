@@ -1,4 +1,4 @@
-# HTML-Boilerplate
+# jBoilerplate v.2.0.0-alpha
 > An easy and simple HTML Skeleton
 
 ## Getting Started
@@ -17,20 +17,29 @@ You need an Less Compiler like [Prepros](https://prepros.io/) or [CodeKit](https
 * PreConfigured Libs
 
 ## Implementet External Libs
-* [slickSlider](http://kenwheeler.github.io/slick/)
+### Less/Css
 * [AnimateCSS](https://daneden.github.io/animate.css/)
-* [ParsleyJS](http://parsleyjs.org/)
 * [HamburgerCSS](https://jonsuh.com/hamburgers/)
+* [FontAwesome 4.7](http://fontawesome.io/)
+* [FontAwesome 5.0](https://fontawesome.com/)
+* [MaterialIcons](https://material.io/icons/)
+* [HoverCss](http://ianlunn.github.io/Hover/)
+* [SocialColors](https://socialcolors.jseidl.at/)
+* [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/)
+* [Bootstrap 4.0](https://getbootstrap.com/)
+
+### JavaScript
+* [Slick Slider](http://kenwheeler.github.io/slick/)
+* [Parsley](http://parsleyjs.org/)
 * [MagnificPopup](http://dimsemenov.com/plugins/magnific-popup/)
-* [Sweetalert](https://sweetalert.js.org/)
-* [FontAwesome](http://fontawesome.io/)
-* [Google Material Icons](https://material.io/icons/)
-* [HoverCSS](http://ianlunn.github.io/Hover/)
-* [socialColors](https://github.com/Thejuse/SocialColors)
+* [Sweetalert](https://limonte.github.io/sweetalert2/)
 * [MMenu](http://mmenu.frebsite.nl/)
-* [clipboardJS](https://clipboardjs.com/)
+* [ClipboardJS](https://clipboardjs.com/)
+* [Masonry](https://masonry.desandro.com/)
 * [Isotopes](https://isotope.metafizzy.co/)
-* [CookieConsent](https://cookieconsent.insites.com/)
+* [CookieConsent](https://cookieconsent.insites.com)
+* [ScrollReveal](https://scrollrevealjs.org/)
+* [Card](https://jessepollak.github.io/card/)
 
 ## Licence
 Copyright (c) 2017 [Julian Seidl](https://www.jseidl.at)
