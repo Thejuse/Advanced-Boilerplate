@@ -513,7 +513,7 @@ body p {
   *
   */
 /*!
- * Font Awesome Free 5.0.0 by @fontawesome - http://fontawesome.com
+ * Font Awesome Free 5.0.1 by @fontawesome - http://fontawesome.com
  * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -1343,9 +1343,6 @@ body p {
 .fa-dropbox:before {
   content: "\f16b";
 }
-.fa-dropbox-alt:before {
-  content: "\f398";
-}
 .fa-drupal:before {
   content: "\f1a9";
 }
@@ -1546,6 +1543,9 @@ body p {
 }
 .fa-font-awesome-alt:before {
   content: "\f35c";
+}
+.fa-font-awesome-flag:before {
+  content: "\f425";
 }
 .fa-fonticons:before {
   content: "\f280";
@@ -1952,6 +1952,9 @@ body p {
 .fa-lock:before {
   content: "\f023";
 }
+.fa-lock-open:before {
+  content: "\f3c1";
+}
 .fa-long-arrow-alt-down:before {
   content: "\f309";
 }
@@ -2336,6 +2339,9 @@ body p {
 .fa-redo:before {
   content: "\f01e";
 }
+.fa-redo-alt:before {
+  content: "\f2f9";
+}
 .fa-registered:before {
   content: "\f25d";
 }
@@ -2615,6 +2621,9 @@ body p {
 .fa-stripe:before {
   content: "\f429";
 }
+.fa-stripe-s:before {
+  content: "\f42a";
+}
 .fa-studiovinari:before {
   content: "\f3f8";
 }
@@ -2647,6 +2656,9 @@ body p {
 }
 .fa-sync:before {
   content: "\f021";
+}
+.fa-sync-alt:before {
+  content: "\f2f1";
 }
 .fa-table:before {
   content: "\f0ce";
@@ -2798,6 +2810,9 @@ body p {
 .fa-twitter-square:before {
   content: "\f081";
 }
+.fa-typo3:before {
+  content: "\f42b";
+}
 .fa-uber:before {
   content: "\f402";
 }
@@ -2812,6 +2827,9 @@ body p {
 }
 .fa-undo:before {
   content: "\f0e2";
+}
+.fa-undo-alt:before {
+  content: "\f2ea";
 }
 .fa-uniregistry:before {
   content: "\f404";
@@ -3040,7 +3058,21 @@ body p {
   width: auto;
 }
 /*!
- * Font Awesome Free 5.0.0 by @fontawesome - http://fontawesome.com
+ * Font Awesome Free 5.0.1 by @fontawesome - http://fontawesome.com
+ * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.eot');
+  src: url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.woff2') format('woff2'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.woff') format('woff'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.ttf') format('truetype'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.svg#fontawesome') format('svg');
+}
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+}
+/*!
+ * Font Awesome Free 5.0.1 by @fontawesome - http://fontawesome.com
  * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
@@ -3055,7 +3087,7 @@ body p {
   font-weight: 400;
 }
 /*!
- * Font Awesome Free 5.0.0 by @fontawesome - http://fontawesome.com
+ * Font Awesome Free 5.0.1 by @fontawesome - http://fontawesome.com
  * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
@@ -3069,20 +3101,6 @@ body p {
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
-}
-/*!
- * Font Awesome Free 5.0.0 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.eot');
-  src: url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.woff2') format('woff2'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.woff') format('woff'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.ttf') format('truetype'), url('../less/external/fontawesome/font-awesome-5.0/webfonts/fa-brands-400.svg#fontawesome') format('svg');
-}
-.fab {
-  font-family: 'Font Awesome 5 Brands';
 }
 @font-face {
   font-family: 'Material Icons';
