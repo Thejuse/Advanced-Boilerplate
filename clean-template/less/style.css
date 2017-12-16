@@ -17,6 +17,7 @@
  *  MIT - Licence
  *
  */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import "external/bootstrap/bootstrap-3.3.7/bootstrap.css";
 @import "external/animatecss/animate.css";
 @import "external/hamburgercss/hamburgers.css";
@@ -432,6 +433,80 @@
 .sc-black {
   color: black !important;
 }
+/*
+ *
+ *  Fonts
+ *
+ */
+/*
+ *
+ *  Colors
+ *
+ */
+/*
+ *
+ *  Helpers and Tools
+ *
+ */
+.display-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.display-table .display-table-cell {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.display-table .display-table-cell.left {
+  text-align: left;
+}
+.display-table .display-table-cell.right {
+  text-align: right;
+}
+.display-table .display-table-cell.top {
+  vertical-align: top;
+}
+.display-table .display-table-cell.bottom {
+  vertical-align: bottom;
+}
+nav#menu:not(.mm-menu) {
+  display: none !important;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+/*
+ *
+ *	Typography Styles
+ *
+ */
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  font-family: 'Open Sans', sans-serif;
+}
+/*
+ *	Head/Navigation
+ */
+/*
+ *	Footer
+ */
+/*
+ *	Content
+*/
 /*
   *
   * External CSS
