@@ -1,4 +1,4 @@
-# jBoilerplate v.3.0.0-alpha
+# jBoilerplate v.3.0.0
 > An easy and simple HTML Skeleton 
 
 ## Getting Started
@@ -12,15 +12,8 @@ You need an Less Compiler like [Prepros](https://prepros.io/) or [CodeKit](https
 ## Features
 * Less Structure
 * Modular Structure
-* External Libs
 * Basic HTML Structure
-
-## Implementet External Libs
-### Less/Css
-* [Bootstrap 4.1](https://getbootstrap.com/)
-
-### JavaScript
-* [JQuery](https://jquery.com/)
+* Bootstrap & jQuery
 
 ## Licence
 Copyright (c) 2018 [Julian Seidl](https://www.jseidl.at)
