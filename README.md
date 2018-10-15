@@ -1,4 +1,5 @@
 # jBoilerplate v.3.0.0
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jseidlAT/5.99)
 > An easy and simple HTML Skeleton 
 
 ## Getting Started
