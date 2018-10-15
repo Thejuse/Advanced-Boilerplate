@@ -1,0 +1,25 @@
+/*!
+ *
+ *  boilerplate
+ *  Copyright 2018 - Julian Seidl
+ *  Developer DEVELOPERNAME
+ *
+*/
+
+// Configuration
+@import "_config/fonts";
+@import "_config/variables";
+@import "_config/typography";
+@import "_config/other";
+
+// Structure
+@import "_structure/header";
+@import "_structure/structure";
+@import "_structure/footer";
+
+// ContentElements
+@import "_content_elements/demo";
+
+// External
+@import "_external/_bootstrap/bootstrap-reboot";
+@import "_external/_bootstrap/bootstrap";
