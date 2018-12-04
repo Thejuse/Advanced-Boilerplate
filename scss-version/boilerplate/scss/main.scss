@@ -6,6 +6,10 @@
  *
 */
 
+// External
+@import "_external/_bootstrap/bootstrap-reboot";
+@import "_external/_bootstrap/bootstrap";
+
 // Configuration
 @import "_config/fonts";
 @import "_config/variables";
@@ -19,7 +23,3 @@
 
 // ContentElements
 @import "_content_elements/demo";
-
-// External
-@import "_external/_bootstrap/bootstrap-reboot";
-@import "_external/_bootstrap/bootstrap";
