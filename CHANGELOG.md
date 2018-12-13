@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Changed
 - Bootstrap 4.1.3 SCSS-Source
+- Naming of folders -> removed '_'
 
 ## [3.1.0] - 2018-10-15
 ### Added
