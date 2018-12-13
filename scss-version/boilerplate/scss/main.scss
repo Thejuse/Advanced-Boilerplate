@@ -6,20 +6,20 @@
  *
 */
 
+// External
+@import "external/bootstrap/bootstrap-reboot";
+@import "external/bootstrap/bootstrap";
+
 // Configuration
-@import "_config/fonts";
-@import "_config/variables";
-@import "_config/typography";
-@import "_config/other";
+@import "config/fonts";
+@import "config/variables";
+@import "config/typography";
+@import "config/other";
 
 // Structure
-@import "_structure/header";
-@import "_structure/structure";
-@import "_structure/footer";
+@import "structure/header";
+@import "structure/structure";
+@import "structure/footer";
 
 // ContentElements
-@import "_content_elements/demo";
-
-// External
-@import "_external/_bootstrap/bootstrap-reboot";
-@import "_external/_bootstrap/bootstrap";
+@import "content_elements/demo";
