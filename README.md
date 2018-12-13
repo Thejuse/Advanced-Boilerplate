@@ -1,5 +1,5 @@
 # jBoilerplate
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jseidlAT/5.99)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jseidlAT/1.99)
 > An easy and simple HTML Skeleton 
 
 ## Getting Started
