@@ -5,8 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [3.2.0] - 2018-12-13
 ### Changed
 - Bootstrap 4.1.3 SCSS-Source
+- Naming of folders -> removed '_'
 
 ## [3.1.0] - 2018-10-15
 ### Added
