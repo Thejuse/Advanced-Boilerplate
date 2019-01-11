@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [3.2.1] - 2019-01-11
 ### Updated
 - Bootstrap v. 4.1.3 -> 4.2.1
 
