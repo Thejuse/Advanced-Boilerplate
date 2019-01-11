@@ -17,5 +17,5 @@ You need an Less Compiler like [Prepros](https://prepros.io/) or [CodeKit](https
 * Bootstrap & jQuery
 
 ## Licence
-Copyright (c) 2018 [Julian Seidl](https://www.jseidl.at)
+Copyright (c) 2017-2019 [Julian Seidl](https://www.jseidl.at)
 Licensed under the [GNU 3.0](LICENCE)
