@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [3.2.1] - 2019-01-11
+### Updated
+- Bootstrap v. 4.1.3 -> 4.2.1
+
 ## [3.2.0] - 2018-12-13
 ### Changed
 - Bootstrap 4.1.3 SCSS-Source
